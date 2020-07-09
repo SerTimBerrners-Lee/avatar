@@ -19,12 +19,7 @@ export default function LinksScreen() {
         onPress={() => WebBrowser.openBrowserAsync('https://reactnavigation.org')}
       />
 
-      <OptionButton
-        icon="ios-chatboxes"
-        label="Ask a question on the forums"
-        onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
-        isLastOption
-      />
+     
     </ScrollView>
   );
 }
